@@ -1,0 +1,32 @@
+{
+  "name": "botica-bot-cep-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isa-group/botica-bot-cep-gateway.git"
+  },
+  "author": "Alberto Mimbrero",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "botica-lib-node": "file:./botica-lib-node-1.0.0.tgz",
+    "express": "^4.19.2",
+    "prettier": "^3.3.2",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.5.2"
+  }
+}
